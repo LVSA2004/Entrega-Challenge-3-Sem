@@ -12,6 +12,11 @@
     <img height src="https://cdn.discordapp.com/attachments/946468431794954250/1150476968010186843/Arquitetura_do_Projeto_AgroAID.png"/>
 </div>
 
+<h2 align="center">🧾 Diagrama de Classes 🧾</h2>
+<div align="center">
+    <img height src="https://cdn.discordapp.com/attachments/946468431794954250/1150484960516505650/Diagrama_de_Classe_AgroAID.png"/>
+</div>
+
 <h2 align="center">Endpoints 📋</h2>
 
 ### Cadastro com Autenticação e Token ╹Usuário╷ **`/registrar`**:
