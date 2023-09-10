@@ -7,6 +7,11 @@
 <h3 align="center">Link API Key Chat GPT: https://platform.openai.com/account/api-keys</h3>
 <h3 align="center">Link API Clima: https://home.openweathermap.org/api_keys</h3>
 
+<h2 align="center">🛠 Arquitetura do Projeto 🛠</h2>
+<div align="center">
+    <img height src=""/>
+</div>
+
 <h2 align="center">Endpoints 📋</h2>
 
 ### Cadastro com Autenticação e Token ╹Usuário╷ **`/registrar`**:
