@@ -49,7 +49,7 @@
 **Exemplo 👇**
 ```js
 {
-	"email": "santificado@gmail.com",
+	"email": "lvssfiap@gmail.com",
 	"senha": "|(:oUuC<UZ"
 }
 ```
