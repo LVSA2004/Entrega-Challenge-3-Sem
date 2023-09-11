@@ -3,6 +3,9 @@ package br.com.fiap.gsjava.models;
 import jakarta.persistence.*;
 import lombok.*;
 
+import br.com.fiap.gsjava.models.PessoaFisica;
+import br.com.fiap.gsjava.models.PessoaJuridica;
+
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 

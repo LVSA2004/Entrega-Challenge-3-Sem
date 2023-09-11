@@ -31,7 +31,7 @@ public class ChatGPTController {
     PagedResourcesAssembler<ChatGPT> assembler;
 
     Logger log = LoggerFactory.getLogger(ChatGPTController.class);
-    private static final String API_KEY = "SUA CHAVE DE API AQUI";
+    private static final String API_KEY = "";
 
     @GetMapping
     public PagedModel<EntityModel<ChatGPT>> index(@PageableDefault(size = 5) Pageable pageable) {
@@ -52,7 +52,7 @@ public class ChatGPTController {
         CompletionRequest request = CompletionRequest.builder()
                 .model("text-davinci-003")
                 .prompt(input.getPergunta())
-                .maxTokens(500)
+                .maxTokens(400)
                 .build();
 
         String resposta = service.createCompletion(request).getChoices().get(0).getText();

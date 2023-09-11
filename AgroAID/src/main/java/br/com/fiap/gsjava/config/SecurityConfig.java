@@ -26,7 +26,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests()
                 .requestMatchers(HttpMethod.POST, "/registrar").permitAll()
                 .requestMatchers(HttpMethod.POST, "/login").permitAll()
-                .requestMatchers(HttpMethod.GET, "/clima/{city}").permitAll()
+                .requestMatchers(HttpMethod.GET, "/clima").permitAll()
                 .requestMatchers(HttpMethod.POST, "/pessoa").permitAll()
                 .requestMatchers(HttpMethod.GET, "/pessoa/busca/{id}").permitAll()
                 .requestMatchers(HttpMethod.PUT, "/pessoa/{id}").permitAll()
