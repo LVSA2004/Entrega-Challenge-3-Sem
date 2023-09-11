@@ -1,6 +1,6 @@
 <h1 align="center">Projeto AgroAID</h1>
 
-<h2> Projeto feito em Java para a entrega do Challenge do 3° Semestre. Foi feita uma API em SpringBoot com conexão a API do OpenWeather e da OpenAI para o uso do chat GPT e banco de dados da Oracle. </h2>
+<h2> Projeto feito em Java para a entrega do Challenge do 4° Semestre. Foi feita uma API em SpringBoot com conexão a API do OpenWeather e da OpenAI para o uso do chat GPT e banco de dados da Oracle. </h2>
 
 <h2> Vídeo da API RESTful:  </h2>
 
