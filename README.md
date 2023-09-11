@@ -112,13 +112,15 @@ http://localhost:8080/chatbot/busca/1
 | ❌ | `403` | Prompt com o id {id} não foi encontrada.
 
 
-### Clima  ╹Open Weather╷ **`http://localhost:8080/clima/{city}`**:
+### Clima  ╹Open Weather╷ **`http://localhost:8080/clima`**:
 
 #### GET ⬅️
 
 **Exemplo 👇**
 ```js
-http://localhost:8080/clima/São Paulo
+{
+	"cidade": "Guarulhos"
+}
 ```
 
 **Saída 👇**
