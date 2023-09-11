@@ -114,7 +114,7 @@ http://localhost:8080/chatbot/busca/1
 
 ### Clima  ╹Open Weather╷ **`http://localhost:8080/clima/{city}`**:
 
-#### POST ➡️
+#### GET ⬅️
 
 **Exemplo 👇**
 ```js
