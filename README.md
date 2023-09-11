@@ -127,3 +127,89 @@ http://localhost:8080/clima/São Paulo
 |:------:|:------:|-----------|
 | ✔️ | `200` | Cidade encontrada com sucesso.
 | ❌ | `403` | Cidade não encontrada.
+
+### Cadastro  ╹Pessoa╷ **`/pessoa`**:
+
+#### POST ➡️
+
+**Exemplo 👇**
+```js
+{
+	"id": 1,
+	"nome": "Luiz Fernando",
+	"nascimento": "1996-06-05",
+	"sexo": "MASCULINO",
+	"filhos": [],
+	"cpf": "236.862.556-93"
+}
+```
+
+**Saída 👇**
+
+|  | <font color="#aa31f5">código</font> | <font color="#e0af0d">descrição</font> |
+|:------:|:------:|-----------|
+| ✔️ | `200` | Pessoa cadastrada com sucesso.
+| ❌ | `403` | Não foi possivel realizar o cadastro.
+
+### Pesquisa Por ID ╹Pessoa╷ **`/pessoa/busca/{id}`**:
+
+#### GET ⬅️
+
+**Exemplo 👇**
+```js
+http://localhost:8080/pessoa/busca/1
+```
+
+**Saída 👇**
+
+|  | <font color="#aa31f5">código</font> | <font color="#e0af0d">descrição</font> |
+|:------:|:------:|-----------|
+| ✔️ | `200` | Pessoa com o id {id} encontrada.
+| ❌ | `403` | Pessoa com o id {id} não foi encontrada.
+
+### Atualizar Pessoa ╹Pessoa╷ **`/pessoa/{id}`**:
+
+#### PUT 🔄
+
+**Exemplo de cadastro 👇**
+```js
+	"id": 1,
+	"nome": "Luiz Fernando",
+	"nascimento": "1996-06-05",
+	"sexo": "MASCULINO",
+	"filhos": [],
+	"cpf": "236.862.556-93"
+```
+** Exemplo de Alteração 👇**
+
+```js
+	"id": 1,
+	"nome": "Luiz Fernando de Sá",
+	"nascimento": "1969-06-05",
+	"sexo": "MASCULINO",
+	"filhos": [],
+	"cpf": "236.862.556-93"
+```
+
+**Saída 👇**
+
+|  | <font color="#aa31f5">código</font> | <font color="#e0af0d">descrição</font> |
+|:------:|:------:|-----------|
+| ✔️ | `204` | Alteração feita com sucesso.
+| ❌ | `403` | Pessoa com o id {id} não foi encontrada.
+
+### Deletar Pessoa ╹Pessoa╷ **`/pessoa/{id}`**:
+
+#### DELETE ⬇️
+
+**Exemplo 👇**
+```js
+http://localhost:8080/pessoa/1
+```
+
+**Saída 👇**
+
+|  | <font color="#aa31f5">código</font> | <font color="#e0af0d">descrição</font> |
+|:------:|:------:|-----------|
+| ✔️ | `204` | Pessoa deletada com sucesso.
+| ❌ | `403` | Pessoa com o id {id} não foi encontrada.
