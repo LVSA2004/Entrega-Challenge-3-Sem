@@ -51,6 +51,8 @@ public class SecurityConfig {
     public CorsFilter corsFilter() {
         CorsConfiguration corsConfig = new CorsConfiguration();
         corsConfig.addAllowedOrigin("http://localhost:3000");
+        corsConfig.addAllowedOrigin("http://localhost:8080");
+        corsConfig.addAllowedOrigin("https://entrega-challenge-4-sem-production.up.railway.app");
         corsConfig.addAllowedMethod("*");
         corsConfig.addAllowedHeader("*");
 
