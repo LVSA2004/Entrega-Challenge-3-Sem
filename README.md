@@ -6,6 +6,7 @@
 
 <h3 align="center">Link API Key Chat GPT: https://platform.openai.com/account/api-keys</h3>
 <h3 align="center">Link API Clima: https://home.openweathermap.org/api_keys</h3>
+<h3 align="center">Link Para o Gerador de Pessoas do 4Devs:https://www.4devs.com.br/gerador_de_pessoas</h3>
 
 <h2 align="center">🛠 Arquitetura do Projeto 🛠</h2>
 <div align="center">
@@ -130,7 +131,7 @@ http://localhost:8080/chatbot/busca/1
 | ✔️ | `200` | Cidade encontrada com sucesso.
 | ❌ | `403` | Cidade não encontrada.
 
-### Cadastro  ╹Pessoa╷ **`/pessoa`**:
+### Cadastro  ╹Pessoa╷ **`http://localhost:8080/pessoa`**:
 
 #### POST ➡️
 
@@ -153,7 +154,7 @@ http://localhost:8080/chatbot/busca/1
 | ✔️ | `200` | Pessoa cadastrada com sucesso.
 | ❌ | `403` | Não foi possivel realizar o cadastro.
 
-### Pesquisa Por ID ╹Pessoa╷ **`/pessoa/busca/{id}`**:
+### Pesquisa Por ID ╹Pessoa╷ **`http://localhost:8080/pessoa/busca/{id}`**:
 
 #### GET ⬅️
 
@@ -169,7 +170,7 @@ http://localhost:8080/pessoa/busca/1
 | ✔️ | `200` | Pessoa com o id {id} encontrada.
 | ❌ | `403` | Pessoa com o id {id} não foi encontrada.
 
-### Atualizar Pessoa ╹Pessoa╷ **`/pessoa/{id}`**:
+### Atualizar Pessoa ╹Pessoa╷ **`http://localhost:8080/pessoa/{id}`**:
 
 #### PUT 🔄
 
@@ -200,7 +201,7 @@ http://localhost:8080/pessoa/busca/1
 | ✔️ | `204` | Alteração feita com sucesso.
 | ❌ | `403` | Pessoa com o id {id} não foi encontrada.
 
-### Deletar Pessoa ╹Pessoa╷ **`/pessoa/{id}`**:
+### Deletar Pessoa ╹Pessoa╷ **`http://localhost:8080/pessoa/{id}`**:
 
 #### DELETE ⬇️
 
