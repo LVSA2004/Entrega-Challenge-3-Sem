@@ -3,6 +3,7 @@
 <h2> Projeto feito em Java para a entrega do Challenge do 4° Semestre. Foi feita uma API em SpringBoot com conexão a API do OpenWeather e da OpenAI para o uso do chat GPT e banco de dados da Oracle. </h2>
 
 <h2> Vídeo da API RESTful: https://youtu.be/fpLitBecMXo  </h2>
+
 <h2> Vídeo do Deploy da API e Testes: https://youtu.be/66gu8eJRZAU  </h2>
 
 <h3 align="center">Link API Key Chat GPT: https://platform.openai.com/account/api-keys</h3>
