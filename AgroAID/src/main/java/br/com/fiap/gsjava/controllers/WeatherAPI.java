@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/clima")
 public class WeatherAPI {
-    private OWM owm = new OWM("Sua Chave de API");
+    private OWM owm = new OWM("c0f79194c5cdfe6db72de0f4c5e49855");
 
     Logger log = LoggerFactory.getLogger(WeatherAPI.class);
 
